@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Panda</string>
+
+    <array name="tabTitles">
+        <item>直播</item>
+        <item>精彩一刻</item>
+    </array>
+    <array name="tabTitlesChina">
+        <item>八达岭</item>
+        <item>泰山</item>
+        <item>黄山</item>
+        <item>峨眉山</item>
+    </array>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".activity.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:id="@+id/imageview_main_sing"
+                android:src="@drawable/panda_sign"
+                />
+            <TextView
+                android:id="@+id/textview_mian_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                />
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/imageview_main_hudong"
+                android:src="@drawable/hudong_sign"
+                android:layout_toLeftOf="@+id/imageview_main_login"
+                />
+            <ImageView
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/imageview_main_login"
+                android:src="@drawable/person_sign"
+                />
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout"
+        android:layout_below="@+id/toolbar_main"/>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_main_home"
+            style="@style/NavibarBtnStyle"
+            android:drawableTop="@drawable/home_bg"
+            android:text="首页"/>
+
+        <Button
+            android:id="@+id/button_main_panda_eye"
+            style="@style/NavibarBtnStyle"
+            android:drawableTop="@drawable/observe_bg"
+
+            android:text="熊猫观察"/>
+
+        <Button
+            android:id="@+id/button_main_panda_culture"
+            style="@style/NavibarBtnStyle"
+            android:drawableTop="@drawable/culture_bg"
+            android:text="熊猫文化"/>
+
+        <Button
+            android:id="@+id/button_main_panda_live"
+            style="@style/NavibarBtnStyle"
+            android:drawableTop="@drawable/pada_live_bg"
+            android:text="熊猫直播"/>
+
+        <Button
+            android:id="@+id/button_main_live_china"
+            style="@style/NavibarBtnStyle"
+            android:drawableTop="@drawable/live_bg"
+            android:text="直播中国"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <FrameLayout
+        android:id="@+id/frameLayout_homepage_cctv"
+        android:layout_width="150dp"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/image_homepage_cctv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textview_homepage_cctv_videotime"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#33000000"
+            android:text="25:29"
+            android:textColor="@color/white" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textview_homepage_cctv_title"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="《今日关注》" />
+
+    <TextView
+        android:id="@+id/textview_homepage_cctv_updatetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:text="20160903" />
+
+</LinearLayout>

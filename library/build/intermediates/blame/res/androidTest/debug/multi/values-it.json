@@ -1,0 +1,250 @@
+[
+    {
+        "outputFile": "H:\\Android\\ProjectBackup\\week16_Project\\Panda\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-it\\values-it.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 75,
+                    "endOffset": 126
+                },
+                "from": {
+                    "file": "H:\\Android\\ProjectBackup\\week16_Project\\Panda\\library\\build\\intermediates\\bundles\\debug\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 75,
+                        "endOffset": 126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 131,
+                    "endColumn": 73,
+                    "endOffset": 200
+                },
+                "from": {
+                    "file": "H:\\Android\\ProjectBackup\\week16_Project\\Panda\\library\\build\\intermediates\\bundles\\debug\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 131,
+                        "endColumn": 73,
+                        "endOffset": 200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 205,
+                    "endColumn": 81,
+                    "endOffset": 282
+                },
+                "from": {
+                    "file": "H:\\Android\\ProjectBackup\\week16_Project\\Panda\\library\\build\\intermediates\\bundles\\debug\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 205,
+                        "endColumn": 81,
+                        "endOffset": 282
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "H:\\Android\\week_16\\Panda\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-it\\values-it.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 75,
+                    "endOffset": 126
+                },
+                "from": {
+                    "file": "H:\\Android\\week_16\\Panda\\library\\build\\intermediates\\bundles\\debug\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 75,
+                        "endOffset": 126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 131,
+                    "endColumn": 73,
+                    "endOffset": 200
+                },
+                "from": {
+                    "file": "H:\\Android\\week_16\\Panda\\library\\build\\intermediates\\bundles\\debug\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 131,
+                        "endColumn": 73,
+                        "endOffset": 200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 205,
+                    "endColumn": 81,
+                    "endOffset": 282
+                },
+                "from": {
+                    "file": "H:\\Android\\week_16\\Panda\\library\\build\\intermediates\\bundles\\debug\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 205,
+                        "endColumn": 81,
+                        "endOffset": 282
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "F:\\ww\\Panda\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-it\\values-it.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 75,
+                    "endOffset": 126
+                },
+                "from": {
+                    "file": "F:\\ww\\Panda\\library\\build\\intermediates\\bundles\\debug\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 75,
+                        "endOffset": 126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 131,
+                    "endColumn": 73,
+                    "endOffset": 200
+                },
+                "from": {
+                    "file": "F:\\ww\\Panda\\library\\build\\intermediates\\bundles\\debug\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 131,
+                        "endColumn": 73,
+                        "endOffset": 200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 205,
+                    "endColumn": 81,
+                    "endOffset": 282
+                },
+                "from": {
+                    "file": "F:\\ww\\Panda\\library\\build\\intermediates\\bundles\\debug\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 205,
+                        "endColumn": 81,
+                        "endOffset": 282
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\project\\Panda\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-it\\values-it.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 75,
+                    "endOffset": 126
+                },
+                "from": {
+                    "file": "E:\\project\\Panda\\library\\build\\intermediates\\bundles\\debug\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 75,
+                        "endOffset": 126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 131,
+                    "endColumn": 73,
+                    "endOffset": 200
+                },
+                "from": {
+                    "file": "E:\\project\\Panda\\library\\build\\intermediates\\bundles\\debug\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 131,
+                        "endColumn": 73,
+                        "endOffset": 200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 205,
+                    "endColumn": 81,
+                    "endOffset": 282
+                },
+                "from": {
+                    "file": "E:\\project\\Panda\\library\\build\\intermediates\\bundles\\debug\\res\\values-it\\values-it.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 205,
+                        "endColumn": 81,
+                        "endOffset": 282
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="21"
+    density="xhdpi"
+    format="7"
+    timestamp="24263897363701"
+    token="5035201619575177195" >
+
+    <task
+        name="javac"
+        duration="4618" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="6053" />
+    <task
+        name="verifier"
+        duration="234" />
+
+    <artifact
+        location="E:\project\Panda\vitamio-sample\build\outputs\apk\vitamio-sample-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="24263897363701" >
+        <artifact
+            location="E:\project\Panda\vitamio-sample\build\outputs\apk\vitamio-sample-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.my.panda.activity.LoginActivity">
+
+    <!--顶部标题布局-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imageview_personal_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/personal_back_img"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/register"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:text="注册"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <!--使用社交账号登陆-->
+        <RelativeLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <TextView
+                android:textColor="@color/blue"
+                android:id="@+id/login_notice"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="使用社交账号登录到熊猫频道"
+                />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/login_notice"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:src="@drawable/login_weixin"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@drawable/login_qq"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@drawable/login_sina"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <TextView
+                android:textColor="@color/blue"
+                android:id="@+id/text_tongxingzheng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CNTV通行证"
+                />
+            <EditText
+                android:layout_below="@+id/text_tongxingzheng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edittext_login_user"
+                android:hint="账号：请输入邮箱或手机号"
+                android:layout_marginTop="20dp"
+                />
+
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:hint="请输入密码"
+                android:layout_below="@+id/edittext_login_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edittext_login_pwd"
+                />
+
+            <TextView
+                android:textColor="@color/blue"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/edittext_login_pwd"
+                android:id="@+id/textview_forgetpwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="忘记密码？"
+                android:layout_alignParentRight="true"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/button_login"
+                android:background="@drawable/com_facebook_tooltip_blue_background"
+                android:text="登录"
+                android:textColor="@color/white"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

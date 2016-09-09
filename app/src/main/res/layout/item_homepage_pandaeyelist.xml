@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!--两个视频-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/frameLayout_homepage_molihua"
+            android:layout_width="150dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/image_homepage_molihua"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/textview_homepage_pandaeyelist_videolength"
+                android:layout_width="120dp"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:background="#33000000"
+                android:textColor="@color/white"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textview_homepage_molihuatitle"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/frameLayout_homepage_molihua"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textview_homepage_molihuatime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/frameLayout_homepage_molihua"
+            android:layout_below="@+id/textview_homepage_molihuatitle"
+            android:layout_toRightOf="@+id/frameLayout_homepage_molihua"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#11000000" />
+    </RelativeLayout>
+</LinearLayout>
